@@ -46,10 +46,11 @@ input {
   background-color: rgb(0, 0, 133);
   color: #fff;
   font-size: 20px;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   transition: 0.5ms;
   cursor: pointer;
   border-radius: 8px;
+  margin-right: 1rem;
 }
 .btnAdicionar:hover {
   background-color: rgba(121, 166, 224, 0.863);
@@ -63,7 +64,7 @@ input {
   font-size: 20px;
   transition: 0.5ms;
   cursor: pointer;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 .btn-remover:hover {
   background-color: rgba(121, 166, 224, 0.863);
