@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="head-Master">
+        <h1>- Lista de Tarefas -</h1>
+      </div>
+    </header>
+    <main>
+      <section class="main-Container">
+        <div class="container-Tarefas">
+          <div class="Div-Tarefas">
+            <label for="InputTarefas">Tarefas</label>
+            <input
+              type="text"
+              name="tarefa"
+              id="InputTarefas"
+              placeholder="Digite sua tarefa..."
+            />
+          </div>
+          <div class="botao-Adicionar">
+            <button class="btnAdicionar" id="btnAdicionar">➕Adicionar</button>
+          </div>
+          <label>Nivel de Prioridade:</label>
+          <select
+            class="classPrioridades"
+            name="selecao"
+            id="selecaoPrioridade"
+          >
+            <option value="" selected disabled hidden>
+              Selecione uma opção
+            </option>
+            <option value="">Selecione...</option>
+            <option value="Vermelho">🔴 Alta</option>
+            <option value="Amarelo">🟡 Média</option>
+            <option value="Azul">🔵 Baixa</option>
+            <option value="Verde">🟢 Opcional</option>
+          </select>
+        </div>
+      </section>
+    </main>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>

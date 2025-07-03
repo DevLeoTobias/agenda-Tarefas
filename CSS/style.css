@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+}
+.head-Master {
+  background-color: blue;
+  color: #fff;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.main-Container {
+  display: flex;
+  justify-content: center;
+}
+.container-Tarefas {
+  background-color: #000;
+  width: 90%;
+  height: 5rem;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+input {
+  width: 50%;
+  font-size: 25px;
+}
+.btnAdicionar {
+  width: 10rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(0, 0, 133);
+  color: #fff;
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+  transition: 0.5ms;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.btnAdicionar:hover {
+  background-color: rgba(121, 166, 224, 0.863);
+}
+.btn-remover {
+  width: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(0, 0, 133);
+  color: #fff;
+  font-size: 20px;
+  transition: 0.5ms;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.btn-remover:hover {
+  background-color: rgba(121, 166, 224, 0.863);
+}
+
+.concluido {
+  text-decoration: line-through;
+  color: grey;
+  opacity: 0.6;
+}
+.Data-Criacao {
+  font-size: 12px;
+  padding: 5px;
+}
+.classPrioridades {
+  height: 2rem;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* css do switch */
+.nova-div {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.nova-div ul {
+  list-style-type: none; /* tira a bolinha padrão */
+  padding-left: 0;
+}
+
+.nova-div li {
+  margin-bottom: 12px;
+}
+
+.label-tarefa {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px; /* espaçamento entre checkbox e texto */
+  color: #222;
+  font-size: 18px;
+  cursor: pointer;
+  user-select: none; /* evita seleção ao clicar */
+}
+
+.check-tarefas {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
